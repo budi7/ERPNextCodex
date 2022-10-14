@@ -12,4 +12,7 @@ Frappe &amp; ERPNext 101, guides, tricks, and more
   - Setup
     - [BuyingSetting](./buying/setup/buyingSetting.md)
     - [SupplierGroup](./buying/setup/supplierGroup.md)
+    - [defaultWarehouseAccount](./buying/setup/defaultWarehouseAccount.md)
+    - [fiscalYear](./buying/setup/fiscalYear.md)
+    - [itemSetting](./buying/setup/itemSetting.md)
     - 
