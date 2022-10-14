@@ -4,11 +4,11 @@ Frappe &amp; ERPNext 101, guides, tricks, and more
 
 
 ## Index
-- Settings
+- 1.Settings
   - Email
     - [EmailDomain](./settings/email/1.emailDomain.md)
     - [EmailAccount](./settings/email/2.emailAccount.md)
-- Buying
+- 2.Buying
   - Setup
     - [setupCompany](./buying/setup/company.md)
     - [BuyingSetting](./buying/setup/buyingSetting.md)
