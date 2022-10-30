@@ -8,6 +8,8 @@
 
 2. SSH to your server, and login as non root account and make sure frappe applications & services stopped
 
+    su - {erpUser}
+
 
 3. Check your site `site_config.json` first. You have to make sure that the `site_config.json` on the server is equal to your downloaded `site_config.json` back up file. Otherwise, replace your `site_config.json` on the server with your downloaded `site_config.json`. (skip this step if your downloaded and the file on your server is equal)
 
