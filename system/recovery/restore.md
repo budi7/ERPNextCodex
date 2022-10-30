@@ -40,7 +40,6 @@
     next step is check your mysql username. the user used in sites is the database name itself. Type following code and if  you cant find `db_name` as user listed on table, please continue to next step. 
 
         use mysql;  
-        Database changed  
         SELECT user FROM user;  
 
 
@@ -59,7 +58,10 @@
         sudo service mysqld restart // on ssh terminal
 
 
-4. Run restore script.
+4. Run restore script. make sure erp services are turned off
+
+        sudo service nginx stop
+        sudo service supervisor stop
     
         bench --site {sitename} --force restore {path to database backup file .sql} --with-private-files {relative-path-to-private-files-backup-file .tar} --with-public-files {relative-path-to-public-files-backup-file .tar}
 
@@ -73,7 +75,12 @@
         sudo service nginx start
         sudo service supervisor start
 
-6. If you had any errors after restore, try to run `bench migrate` script
+6. If you had any errors after restore
+
+    * unable boot
+    ![alt text](../assets/restoreError.jpeg "Title")
+
+    this problem usually occur when erpnext is updated to newer versions. Try to run `bench migrate` script
 
     run bench migrate
 
