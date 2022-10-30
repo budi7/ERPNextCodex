@@ -18,7 +18,7 @@
         nano /home/{erpUser}/{BenchDirName}/sites/{sitesName}/site_config.json
 
     * and then copy paste with your downloaded `site_config.json` file
-    * use `ctrl` + `k` and select your cursor to end document, hit `ctrl` + `k` to cut the text, and then open then copy your downloaded files, and paste to your nano editor. Hit `ctrl` + `x`, type `y`, hit `enter` twice
+    * use `ctrl` + `shift` + `6` and select your cursor to end document, hit `ctrl` + `k` to cut the text, and then open then copy your downloaded files, and paste to your nano editor. Hit `ctrl` + `x`, type `y`, hit `enter` twice
 
     second: fix the database
     open your mysql terminal
