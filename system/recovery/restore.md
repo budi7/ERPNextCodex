@@ -25,15 +25,16 @@
 
         mysql -u root -p  
         Enter password: YOURPASSWORD  
+        show databases;
 
     open your `site_config.json` and you can find key called `db_name`. make sure that the value of `db_name` is available on your table list. If not. create the new one
 
-        mysql create database {db_name};
+        create database {db_name};
 
     or better if database allready exist, you can recreate that one.
 
-        mysql drop database {db_name};
-        mysql create database {db_name};
+        drop database {db_name};
+        create database {db_name};
 
 
     next step is check your mysql username. the user used in sites is the database name itself. Type following code and if  you cant find `db_name` as user listed on table, please continue to next step. 
