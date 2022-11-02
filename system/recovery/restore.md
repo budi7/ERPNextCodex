@@ -60,6 +60,8 @@
 
 4. Run restore script. make sure erp services are turned off
 
+        bench --site {SIteName} disable-scheduler
+
         sudo service nginx stop
         sudo service supervisor stop
     
@@ -74,7 +76,7 @@
         sudo service mysqld restart
         sudo service nginx start
         sudo service supervisor start
-
+        
 6. If you had any errors after restore
 
     * unable boot
@@ -94,6 +96,10 @@
     if the error persists, please check error logs here 
 
         cd /home/{erpUser}/{BenchDirName}/sites/{sitesName}/error_snapshots
+
+7. If error is not persisted, run the scheduler again
+
+        bench --site {SIteName} enable-scheduler
 
 ### Reference
 https://github.com/frappe/erpnext/wiki/Restoring-From-ERPNext-Backup
