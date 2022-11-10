@@ -22,4 +22,5 @@ Frappe &amp; ERPNext 101, guides, tricks, and more
   - Recovery
     - [backup](./system/recovery/backup.md)
     - [restore](./system/recovery/restore.md)
-  
+- 4. Notes
+  - [Data Code](./system/../notes/code.md)
