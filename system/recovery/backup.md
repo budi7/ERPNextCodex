@@ -8,7 +8,7 @@
 
 2. Run backup script. Your backup files by default will be on `home/{userErp}/{benchDiirName}/sites/{site}/private/backups`
     
-        bench --site {site} backup --with-files
+        bench --site {site} backup --with-files --backup-path [your path]
 
 3. copy backup to your drive (if needed)
 
