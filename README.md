@@ -8,6 +8,8 @@ Frappe &amp; ERPNext 101, guides, tricks, and more
   - Email
     - [EmailDomain](./settings/email/1.emailDomain.md)
     - [EmailAccount](./settings/email/2.emailAccount.md)
+  - Webite
+    - [Logos](./settings/website/logo.md)
 - 2.Buying
   - Setup
     - [setupCompany](./buying/setup/company.md)
